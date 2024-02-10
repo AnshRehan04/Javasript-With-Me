@@ -1,16 +1,16 @@
-let a=5;
-a=6;
-console.log(a);   //-->6
-// Redefined let is not possioble.
-if(true){
-    let a=7;
-    console.log(a);   //-->7
-}
-console.log(a);  //error because let is only defined inside scope of code.
+// let a=5;
+// a=6;
+// console.log(a);   //-->6
+// // Redefined let is not possioble.
+// if(true){
+//     let a=7;
+//     console.log(a);   //-->7
+// }
+// console.log(a);  //error because let is only defined inside scope of code.
 
-var b=6;
-var b=8;
-console.log(b); //-->6  8
+// var b=6;
+// var b=8;
+// console.log(b); //-->6  8
 
 const a1=80;
 a1=19;    

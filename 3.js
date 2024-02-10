@@ -1,6 +1,6 @@
 let a=12;
 let b=2;
-console.log(a+b);
+console.log(a+b);  //14
 
 c=12;
 d='ansh';
@@ -15,7 +15,7 @@ g='hello';
 console.log(g);  //hello
 
 const z=true;
-console.log(z);
+console.log(z);  
 
 let p;
 console.log(p);  //Undefined;
