@@ -16,7 +16,6 @@
 // // 
 // // We can also define our prototype by using the keyword __proto__
 
-
 const employee={
     caltax(){
         console.log("Tax is 10%");

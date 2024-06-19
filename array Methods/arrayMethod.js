@@ -44,6 +44,7 @@
 // let b=array.slice(2,3);
 // console.log(b);  //3 4
 
-
-
-
+// let array=[1,2,3,4,5];
+// array.splice(1,0,33);
+// array.splice(1,2,33);
+// console.log(array)

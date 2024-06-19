@@ -17,9 +17,9 @@ let marks=[97,25,70,100,59];
 //     console.log(`marks is ${marks[i]}`);
 // }
 
-// for(let item of marks){
-//     console.log(item);  //Using For of loop
-// }
+for(let item of marks){
+    console.log(item);  //Using For of loop
+}
 
 // Question:Given array of marks calculate the average of marks.
 
