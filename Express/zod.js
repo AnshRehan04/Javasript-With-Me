@@ -17,20 +17,16 @@ const zod=require("zod");
 
 function validateinput(obj){
     const schema=zod.object({
-        email : zod.string,
-        password: zod.string
-    })
+        email : zod.string().email(),
+        password: zod.string().min(8)
+    }) 
 
     const response=schema.safeParse(obj);
-    if(response.success){
-        console.log("True") ;
-    }
-    else{
-        console.log("False");
-    }
+        console.log(response) ;
+    
 }
 
 validateinput({
     email:"anshrehan7@gmail.com",
-    password:"anshrehan041"
+    password:"ans"
 });
